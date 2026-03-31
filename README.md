@@ -205,7 +205,7 @@ PROCEDURE:BAND PASS FILTER
 
 ---
 ##RESULT:
-	<img width="593" height="400" alt="image" src="https://github.com/user-attachments/assets/0942b4cf-1e5a-4dab-aa93-adc1640715ab" />
+	<img width="598" height="412" alt="image" src="https://github.com/user-attachments/assets/7c41743b-29f4-41f9-9f32-e3c30ae712e1" />
 
 ---
 
