@@ -50,17 +50,8 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
+<img width="523" height="514" alt="image" src="https://github.com/user-attachments/assets/0b928668-631f-4677-ad10-82969dc27434" />
+
 
 
 ## PROCEDURE
@@ -76,25 +67,14 @@ PROCEDURE - (LPF):
 
 ## TABULATION
 
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+<img width="574" height="665" alt="image" src="https://github.com/user-attachments/assets/71774f66-f19f-4179-9aa5-e2d1a06dd046" />
+
 		
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1029" height="670" alt="image" src="https://github.com/user-attachments/assets/bda81b1b-ffac-426a-b397-5a4ea95f7ab1" />
 
 ---
 
@@ -132,18 +112,9 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 ---
 
 ## DESIGN
+<img width="490" height="495" alt="image" src="https://github.com/user-attachments/assets/89dfedb4-f180-4acd-af14-ce370729873a" />
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
+
 
 
 ## PROCEDURE
@@ -159,25 +130,14 @@ PROCEDURE - ( HPF):
 
 ## TABULATION
 
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+	<img width="616" height="627" alt="image" src="https://github.com/user-attachments/assets/3df18aab-811f-4363-8d1d-c252cb145ff6" />
+	
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="975" height="743" alt="image" src="https://github.com/user-attachments/assets/c7448722-854a-4a36-942b-04e2f3411e52" />
 
 ---
 
@@ -216,18 +176,8 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 ## DESIGN
 
-DESIGN: BAND PASS FILTER
+<img width="559" height="437" alt="image" src="https://github.com/user-attachments/assets/b5a343d4-e1a6-449f-bf1e-03f4c4c547b2" />
 
-Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4.
-1.	Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz.
-2.	Design the HPF first by taking fL = 1KHz. Assume the value of C < 1μf. Let C = 0.1μf.
-3.	Calculate R from the expression. Given: fH = 2KHz = 1/ (2πR1C1) Let C1 = 0.1 µF, R1 = 7.9 KΩ
-Given: fL = 400Hz = 1/ (2πR2C2)
-Let C2 = 0.1 µF, R2 = 39.8 KΩ
-Pass band Gain=4
-Now		Ao = 1 + (Rf / R1) 2-1=(Rf / Ri)
-Ri = Rf
-Let Ri = Rf = 10 KΩ
 
 
 ## PROCEDURE
@@ -245,24 +195,13 @@ PROCEDURE:BAND PASS FILTER
 ## TABULATION
 
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
 
----
+<img width="581" height="597" alt="image" src="https://github.com/user-attachments/assets/575a7f54-6541-4a17-9fce-6de4b503c844" />
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="982" height="615" alt="image" src="https://github.com/user-attachments/assets/6dae925e-83e6-42c2-a151-376b1504d91c" />
+
 
 ---
 ##RESULT:
