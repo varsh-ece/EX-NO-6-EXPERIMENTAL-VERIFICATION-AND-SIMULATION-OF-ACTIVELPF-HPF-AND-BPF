@@ -1,13 +1,13 @@
 # EX-NO-6-EXPERIMENTAL-VERIFICATION-AND-SIMULATION-OF-ACTIVELPF-HPF-AND-BPF
 ## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP
             
-**DATE:**  
+**DATE:**  14.02.26 
          
 ---
 
 ## AIM
             
-**DATE:**  
+**DATE:**  14.02.26   
          
 ---
 
@@ -205,8 +205,8 @@ PROCEDURE:BAND PASS FILTER
 
 ---
 ##RESULT:
-	Thus an Active Low pass, High pass and Band Pass Filters are designed and
-tested using op-amp IC 741.
+	<img width="593" height="400" alt="image" src="https://github.com/user-attachments/assets/0942b4cf-1e5a-4dab-aa93-adc1640715ab" />
+
 ---
 
    
